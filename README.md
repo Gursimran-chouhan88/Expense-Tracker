@@ -66,3 +66,9 @@ Contributions are welcome! Please follow these steps to contribute:
 ## Contact
 
 For any questions or feedback, please reach out to [email](mailto:gursimranjeet.singh088@gmail.com).
+
+## Screenshots
+
+![App Screenshot](./src/images/ss%20mobile.jpg)
+
+![App Screenshot](./src/images/Screenshot%202025-02-24%20154627.jpg)
