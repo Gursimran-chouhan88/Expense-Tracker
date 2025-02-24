@@ -1,0 +1,44 @@
+.expenseListContainer {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.expenseListContainer h3 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dedede;
+  margin-bottom: 1rem;
+}
+
+.transactionList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  gap: 0.6rem;
+  height: 100%;
+  margin-top: 15px;
+  border-top: 2px solid gray;
+}
+
+.transactionList li {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.transactionList li:first-child {
+  margin-top: 10px;
+}
+
+.transactionList li:last-child {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .expenseListContainer {
+    width: 100%;
+
+    margin: 10px 0 0 15px;
+  }
+}
